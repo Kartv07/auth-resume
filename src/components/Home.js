@@ -37,12 +37,12 @@ const Home = () => {
                         <input onChange={(e) => { setGithub(e.target.value) }} type="text" placeholder='Linkedin url' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 m-1 px-1 h-6 py-2' />
                     </span> </>) : (
                     <>
-                        <span className="text-lg font-bold font-serif px-1 py-1" >Name: <span className=" px-2 text-sm font-semibold">{name}</span></span>
+                        <span className="text-lg font-bold font-serif py-1" >Name: <span className=" px-2 text-sm font-semibold">{name}</span></span>
                         <span className="text-md font-semibold font-serif py-1 " >Mail: <span className=" px-2 text-sm  font-thin">{mail}</span></span>
                         <span className="text-md font-semibold font-serif py-1" >Phone: <span className=" px-2 text-sm font-thin">{phone}</span> </span>
                         <span className="text-md font-semibold font-serif py-1" >DoB: <span className=" px-2 text-sm  font-thin">{Dob}</span></span>
                         <span className="text-md font-semibold font-serif py-1" >Linkedin:<span className=" px-2 text-sm text-blue-500 font-thin">{linkedin}</span></span>
-                        <span className="text-md font-semibold font-serif py-1" >Github: <span className=" px-2 text-sm text-blue-500 font-thin">{github}</span></span>
+                        <span className="text-md font-semibold font-serif pb-1" >Github: <span className=" px-2 text-sm text-blue-500 font-thin">{github}</span></span>
                     </>)}
             </div>
 
