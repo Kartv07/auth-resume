@@ -10,6 +10,7 @@ import ExtraCurr from './components/ExtraCurr.js';
 import login from './login.jpg';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import Home from './components/Home.js'
 
 function App() {
 
@@ -135,26 +136,7 @@ function App() {
         <div className=' rounded-lg mx-80 my-20 border-4 border-blue-500'>
           <h1 className='text-4xl text-center rounded-lg mx-8 w-auto h-auto text-white py-2 bg-blue-400 my-4 font-serif'>Resume Generator</h1>
           <div className="flex-auto border-4 border-blue-500 m-8 font-serif my-2 py-2 bg-white rounded-lg " id='print'>
-            <div className='px-3 items-center w-full grid grid-rows-2 grid-cols-2 flex text-lg text-sm w-full'>
-              <span >Name:
-                <input type="text" placeholder='Enter Name' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 mx-1 py-2 px-1 h-6' />
-              </span>
-              <span >Mail:
-                <input type="text" placeholder='Enter mail-id' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 py-2 mx-1 px-1 h-6' />
-              </span>
-              <span >Phone:
-                <input type="text" placeholder='Phone no.' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 m-1 py-2 px-1 h-6' />
-              </span>
-              <span >DoB:
-                <input type="date" className=' rounded-lg w-[8rem] focus:rounded-md focus:bg-blue-100 m-1 p-1 h-6 py-2' />
-              </span>
-              <span >Linkedin:
-                <input type="text" placeholder='Github url' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 m-1 px-1 h-6 py-2' />
-              </span>
-              <span >Github:
-                <input type="text" placeholder='Linkedin url' className='rounded-lg w-1/2 focus:rounded-md focus:bg-blue-100 m-1 px-1 h-6 py-2' />
-              </span>
-            </div>
+            <Home />
             <Experience className="py-2 my-5" />
             <Projects />
             <TechSkills />
