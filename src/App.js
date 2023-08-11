@@ -133,7 +133,7 @@ function App() {
         </div>
         </>
       ) : (
-        <div className= {`rounded-lg mx-80 my-20 border-4 border-blue-500`}>
+        <div className= {`rounded-lg mx-80 my-20 border-4`}>
           <h1 className='text-4xl text-center rounded-lg mx-8 w-auto h-auto text-white py-2 bg-blue-400 my-4 font-serif'>Resume Generator</h1>
           <div className="flex-auto border-4 border-blue-500 m-8 font-serif my-2 py-2 bg-white rounded-lg " id='print'>
             <Home />
