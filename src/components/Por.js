@@ -41,7 +41,7 @@ const Por = () => {
                         <>
                             <h1 className='text-lg font-semibold'>{value.heading}</h1>
                             <h1 className='text-md'>{value.subHeading}</h1>
-                            <h1 className='text-sm w-full'>{value.description}</h1>
+                            <h1 className='text-sm w-auto'>{value.description}</h1>
                         </>
                     )
                 })}</>)}

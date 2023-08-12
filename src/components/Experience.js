@@ -83,7 +83,7 @@ const Experience = () => {
                 {value.link && <a href={value.link} alt="lin" className='text-sm text-blue-500' >Link</a>}
   
               </div>
-              <h1 className='text-sm w-full'>{value.description}</h1>
+              <h1 className='text-sm w-auto'>{value.description}</h1>
             </>
           )
         })} </>)
